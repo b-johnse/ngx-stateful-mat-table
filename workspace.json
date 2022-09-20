@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "projects": {
+    "datatable": "libs/datatable",
+    "demo": "apps/demo",
+    "demo-e2e": "apps/demo-e2e"
+  },
+  "version": 2
+}

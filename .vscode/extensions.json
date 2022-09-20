@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    "nrwl.angular-console",
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-rename-tag",
+    "gruntfuggly.todo-tree",
+    "idbartosz.darkpp-italic",
+    "johnpapa.angular-essentials",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.vscode-node-azure-pack",
+    "redhat.vscode-yaml",
+    "richie5um2.vscode-sort-json",
+    "streetsidesoftware.code-spell-checker",
+    "wmaurer.change-case",
+    "yzhang.markdown-all-in-one",
+    "firsttris.vscode-jest-runner",
+    "wix.vscode-import-cost",
+    "stylelint.vscode-stylelint",
+    "aaron-bond.better-comments",
+    "eamodio.gitlens",
+    "chrmarti.regex",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

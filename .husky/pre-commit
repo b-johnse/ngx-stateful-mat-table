@@ -1,0 +1,5 @@
+#!/bin/sh
+npm run affected:lint --parallel --base=main --fix #& npm run lint:styles --fix
+npx pretty-quick --staged
+
+git add .

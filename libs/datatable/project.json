@@ -1,0 +1,43 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/datatable/src",
+  "prefix": "app",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:package",
+      "outputs": ["dist/libs/datatable"],
+      "options": {
+        "project": "libs/datatable/ng-package.json",
+        "tailwindConfig": "libs/datatable/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/datatable/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/datatable/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/datatable"],
+      "options": {
+        "jestConfig": "libs/datatable/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/datatable/**/*.ts",
+          "libs/datatable/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
